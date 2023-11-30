@@ -2,8 +2,17 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div>
-      
+    <div className="sidebar">
+      {/* ツイッターアイコン */}
+
+      {/* Sidebaroption */}
+      {/* Sidebaroption */}
+      {/* Sidebaroption */}
+      {/* Sidebaroption */}
+      {/* Sidebaroption */}
+      {/* Sidebaroption */}
+
+      {/* ツイートボタン */}
     </div>
   )
 }
