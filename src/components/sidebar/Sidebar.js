@@ -10,12 +10,14 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Button } from '@mui/material';
+import './Sidebar.css';
+
 
 function Sidebar() {
   return (
     <div className="sidebar">
       {/* ツイッターアイコン */}
-      <TwitterIcon className='sidebar--icon--twitter'/>
+      <TwitterIcon className='sidebar--twitterIcon'/>
 
       {/* Sidebaroption */}
       <SidebarOption text="ホーム" Icon={HomeIcon} />
